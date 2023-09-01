@@ -1,0 +1,127 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: 'Mulish', sans-serif;
+}
+.header{
+  min-height: 100vh;
+  width: 100%;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+nav{
+  display: flex;
+  padding: 2% 6%;
+  justify-content: space-between;
+  align-items: center;
+}
+nav img{
+  width: 70px;
+  height: 60px;
+}
+.nav-links{
+  flex: 1;
+  text-align: right;
+}
+.nav-links ul li{
+  list-style: none;
+  display: inline-block;
+  padding: 8px 12px;
+  position: relative;
+}
+.nav-links ul li a{
+  color: #fff;
+  text-decoration: none;
+  font-size: 13px;
+}
+.nav-links ul li::after{
+  content: '';
+  width: 0%;
+  height: 2px;
+  background: #73c9af;
+  display: block;
+  margin: auto;
+  transition: 0.5s;
+}
+.nav-links ul li:hover::after{
+  width: 100%;
+}
+.text-box{
+  width: 100%;
+  color: #fff;
+  position: absolute;
+  top: 25%;
+  left: 50%
+  transform: translate(-50%,-50%);
+  text-align: center;
+}
+.text-box h1{
+  font-size: 62px;
+}
+.text-box p{
+  margin: 10px 0 40px;
+  font-size: 18px;
+  color: #fff;
+}
+.text-box h2{
+  font-size: 40px;
+}
+.text-box1{
+  width: 100%;
+  color: #fff;
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  text-align: center;
+}
+.text-box1 h2{
+  font-size: 50px;
+  color: #fff;
+}
+.text-box1 th{
+  font-size: 30px;
+}
+.text-box1 li{
+  font-size: 20px;
+}
+.hero-btn{
+  display: inline-block;
+  text-decoration: none;
+  color: #fff;
+  border: 1px solid #fff;
+  padding: 12px 34px;
+  font-size: 13px;
+  background: transparent;
+  position: relative;
+  cursor: pointer;
+}
+.hero-btn:hover{
+  border: 1px solid #5bbd9f;
+  background: #5bbd9f;
+  transition: 1s;
+}
+.center{
+  margin-left: auto;
+  margin-right: auto;
+  background-color: rgba(255, 255, 255, 0.1);
+}
+.uid{
+  display: block;
+  margin-top: -10%;
+  width: 50%;
+}
+.id{
+  color: #fff;
+  text-align: center;
+}
+.details{
+  width: 100%;
+  color: #fff;
+  position: absolute;
+  top: 110%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  text-align: center;
+}
